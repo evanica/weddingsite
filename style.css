@@ -1,0 +1,92 @@
+/*Headerin kuva + teksti*/
+
+.sivukuva {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style:italic
+;
+  }
+
+.sivuotsikko {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 5px rgba(165, 107, 224);
+  }
+
+/*Navbar / navigointi*/
+
+.nav-link {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a.nav-link:link, a.nav-link:visited {
+  text-decoration: none;
+}
+
+a.nav-link:hover, a.nav-link:active {
+  background-color: rgba(165, 107, 224, 0.144);
+  transition: 0.5s;
+}
+
+/*H2 / väliotsikko*/
+
+h2 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+/*body*/
+
+body {
+  background-color: rgb(230, 227, 233);
+}
+
+.img-thumbnail {
+  width: 500px;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.row {
+  padding-bottom: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+#koodi {
+  border-style: dashed;
+  border-color: white;
+}
+
+/*footer / alatunniste*/
+
+.footer {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding:1.5%
+}
+
+/*Linkkien muotoilu*/
+
+a:link, a:visited {
+  color:rgb(166, 107, 224);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: rgb(122, 17, 228);
+  background-color: transparent;
+  text-decoration: underline;
+  transition: 0.5s;
+}
